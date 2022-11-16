@@ -1,0 +1,31 @@
+#gallery {
+  background-color: #2f2d2d;
+  border-radius: 15px;
+  color: #ffffff;
+  font-family: "Teko", sans-serif;
+  margin: 0 20px 0 20px;
+  height: 53em;
+}
+#gallery-title {
+  font-size: 3em;
+  text-decoration: underline #ffd200;
+  margin-left: 30px;
+  padding-top: 12px;
+}
+
+#gallery-1 {
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.gallery-image {
+  height: 20em;
+  width: 20em;
+}
+#gallery-2 {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
