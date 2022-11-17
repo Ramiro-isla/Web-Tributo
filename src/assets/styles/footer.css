@@ -1,25 +1,19 @@
 footer {
   height: 100px;
   background-color: black;
-  position: absolute;
   bottom: 0;
   width: 100%;
   color: white;
+  display:  flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
 }
 .logo {
   width: 100px;
   padding: 15px;
   right: 15px;
 }
-.text-footer-1 {
+.text-footer-band-name {
   color: #ffffff;
   font-size: large;
-  text-align: center;
-  margin-top: -65px;
-}
-
-.text-footer-2 {
-  text-align: right;
-  padding-right: 145px;
-  margin-top: -39px;
 }

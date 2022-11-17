@@ -2,13 +2,13 @@
 @import "header.css";
 @import './home.css';
 @import "/src/assets/styles/about.css";
+@import "/src/assets/styles/gallery.css";
 @import "footer.css";
 body {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 3em;
     min-width: 100vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
   }
 
 
