@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import "header.css";
 @import './home.css';
+@import "/src/assets/styles/about.css";
 @import "footer.css";
 body {
     margin: 0px;
