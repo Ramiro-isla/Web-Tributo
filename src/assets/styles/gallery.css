@@ -4,7 +4,7 @@
   color: #ffffff;
   font-family: "Teko", sans-serif;
   margin: 0 20px 0 20px;
-  height: 53em;
+  height: 55em;
 }
 #gallery-title {
   font-size: 3em;
@@ -22,6 +22,12 @@
 .gallery-image {
   height: 20em;
   width: 20em;
+}
+
+.gallery-image:hover{
+  width: 22em;
+  height: 22em;
+  border: 1px solid white;
 }
 #gallery-2 {
     display: flex;
