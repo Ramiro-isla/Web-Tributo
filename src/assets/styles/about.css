@@ -1,5 +1,4 @@
 #about {
-  background-color: #2f2d2d;
   border-radius: 15px;
   color: #ffffff;
   font-family: "Teko", sans-serif;
@@ -36,7 +35,23 @@
   width: 20%;
   text-align: inherit;
 }
-
+@media (min-width: 320px) and (max-width: 374px) {
+  .image-member {
+    width: 800%;
+  }
+  .p-rigth {
+    font-size: 0.8em;
+    width: 30%;
+    margin-left: 10px;
+  }
+  .p-left {
+    font-size: 0.8em;
+    float: left;
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+  }
+}
 @media (max-width: 768px) {
   .image-member {
     width: 20%;

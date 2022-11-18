@@ -4,6 +4,9 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  border-color: white;
+  border-width: 0px 0px 2px;
+  border-style: solid;
 }
 
 .logo {
@@ -43,7 +46,24 @@ header li a:hover {
 header li a.activo {
   color: #f7f2f2;
 }
-@media (max-width: 768px) {
+
+@media (min-width: 320px) and (max-width: 374px) {
+  header ol {
+    margin-left: 30%;
+  }
+  header li,
+  header li a {
+    width: 60px;
+    height: 39px;
+    font-size: 80%;
+  }
+  .logo {
+    width: 90px;
+    padding: 10px;
+    right: 15px;
+  }
+}
+@media (min-width: 375px) and (max-width: 1023px) {
   header {
     height: 100px;
     width: 100%;

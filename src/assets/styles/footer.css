@@ -6,6 +6,7 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
+  font-family: "Teko", sans-serif;
 
   padding: 0 2%;
   margin-top: 30px;
@@ -15,8 +16,22 @@ footer {
 }
 
 .text-footer-band-name {
-  color: #ffffff;
-  font-size: large;
+  font-size: 30px;
+}
+.text-footer-copyrigth {
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  footer {
+    align-items: center;
+  }
+
+  .text-footer-band-name {
+    font-size: 100%;
+  }
+  .text-footer-copyrigth {
+    font-size: 100%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -31,18 +46,7 @@ footer {
     font-size: 80%;
   }
 }
-@media (min-width: 769px) {
-  footer {
-    align-items: center;
-  }
 
-  .text-footer-band-name {
-    font-size: 100%;
-  }
-  .text-footer-copyrigth {
-    font-size: 100%;
-  }
-}
 @media (min-width: 1025px) and (max-width: 1440px) {
   footer {
     height: 100px;

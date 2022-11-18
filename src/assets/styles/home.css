@@ -1,6 +1,5 @@
 #home {
   display: flex;
-  background: #2f2d2d;
   border-radius: 15px;
   color: #fff;
   font-family: "Teko", sans-serif;
@@ -16,7 +15,9 @@ h1 {
   font-size: 3em;
   text-decoration: underline #ffd200;
 }
-
+.fa-brands {
+  margin: 0 10px 0 10px;
+}
 #video-song {
   width: 100%;
   height: 50%;
