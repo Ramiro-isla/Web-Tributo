@@ -4,7 +4,7 @@
   border-radius: 15px;
   color: #fff;
   font-family: "Teko", sans-serif;
-  margin: 0 20px 0 20px;
+  margin: 110px 20px 0 20px;
   height: 50em;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,6 @@
 h1 {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
   font-size: 3em;
   text-decoration: underline #ffd200;
 }
@@ -27,7 +26,7 @@ h1 {
   display: flex;
   background-color: #000;
   width: 45%;
-  height: 25%;
+  height: 20%;
   justify-content: center;
   margin-top: 15px;
 }
@@ -37,4 +36,42 @@ h1 {
   float: right;
   padding: 10px 10px;
   text-align: inherit;
+}
+@media (max-width: 768px) {
+  #home {
+    height: 35em;
+  }
+
+  #video-song {
+    width: 100%;
+    height: 30%;
+  }
+
+  .presentacion {
+    display: flex;
+    background-color: #000;
+    width: 65%;
+    height: 22%;
+  }
+
+  .text-presentacion {
+    font-size: 1em;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #video-song {
+    width: 90%;
+    height: 50%;
+  }
+
+  .presentacion {
+    display: flex;
+    background-color: #000;
+    width: 60%;
+    height: 15%;
+  }
+
+  .text-presentacion {
+    font-size: 1.1em;
+  }
 }

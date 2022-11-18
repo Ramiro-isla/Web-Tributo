@@ -3,12 +3,15 @@
   border-radius: 15px;
   color: #ffffff;
   font-family: "Teko", sans-serif;
-  margin: 0 20px 0 20px;
+  margin: 40px 20px 0 20px;
 }
 #about-title {
   font-size: 3em;
   text-decoration: underline #ffd200;
   margin-left: 30px;
+}
+.info-container {
+  margin-bottom: 30px;
 }
 
 .info-group {
@@ -17,10 +20,9 @@
   align-items: center;
 }
 .image-member {
-  width: 12%;
-  height: 15%;
+  width: 10%;
   border-radius: 24px;
-  margin: 20px;
+  margin: 0 20px 10px 20px;
 }
 .p-rigth {
   font-size: 1.3em;
@@ -33,4 +35,39 @@
   float: left;
   width: 20%;
   text-align: inherit;
+}
+
+@media (max-width: 768px) {
+  .image-member {
+    width: 20%;
+  }
+  .p-rigth {
+    font-size: 1em;
+    width: 40%;
+    margin-left: 10px;
+  }
+  .p-left {
+    font-size: 1em;
+    float: left;
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image-member {
+    width: 20%;
+  }
+  .p-rigth {
+    font-size: 1.3em;
+    width: 40%;
+    margin-left: 10px;
+  }
+  .p-left {
+    font-size: 1.3em;
+    float: left;
+    width: 40%;
+    text-align: right;
+  }
 }
