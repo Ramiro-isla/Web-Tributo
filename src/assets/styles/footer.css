@@ -1,6 +1,6 @@
 footer {
   height: 100px;
-  background-color: black;
+  background-color: #000; 
   bottom: 0;
   width: 96%;
   color: white;
@@ -27,10 +27,12 @@ footer {
   }
 
   .text-footer-band-name {
-    font-size: 100%;
+    font-size: 80%;
+    margin-right: 10px;
   }
   .text-footer-copyrigth {
-    font-size: 100%;
+    font-size: 80%;
+    margin-right: 8px;
   }
 }
 
@@ -63,9 +65,11 @@ footer {
     border-width: 2px 0px 0px;
     border-style: solid;
   }
-
   .text-footer-band-name {
-    color: #ffffff;
-    font-size: large;
+    font-size: 80%;
   }
+  .text-footer-copyrigth {
+    font-size: 80%;
+  }
+  
 }
